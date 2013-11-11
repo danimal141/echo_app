@@ -4,7 +4,7 @@
 
 //各モジュールの参照
 var express = require("express") //express
-  , routes = require("./routes")　//routesのindex.js
+  , routes = require("./routes") //routesのindex.js
   , http = require("http")
   , path = require("path")
   , WebSocketServer = require("ws").Server;
