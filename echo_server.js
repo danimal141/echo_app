@@ -14,7 +14,7 @@ var app = express()
   , httpServer = http.createServer(app)
   , wss = new WebSocketServer({server:httpServer});
 
-//configureで環境に適したミドルウェアを割り当てる ミドルウェア＝追加できる機能？
+//configureで環境に適したミドルウェアを割り当てる
 app.configure(function(){
   app.set("port", process.env.PORT || 3000);
   app.set("views", __dirname + "/views");
