@@ -3,6 +3,7 @@
 ## How to use
 
 ```
+$ npm install
 $ node echo_server.js
 ```
 
