@@ -1,4 +1,4 @@
-#echo_sample
+#echo_app
 
 ## How to use
 
